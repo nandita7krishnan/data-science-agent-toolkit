@@ -4,7 +4,7 @@
 
 ## What this is
 
-AI agents don't know your metrics, your tables, or your gotchas, so they invent a DAU formula that's almost-right, miss the partition filter on a 120 TB table, and confuse GMV with revenue. This kit gives them that context so you stop correcting the same things repeatedly.<img width="718" height="239" alt="Screenshot 2026-05-06 at 3 01 18 PM" src="https://github.com/user-attachments/assets/17d24e13-4855-4b92-9639-62bff3399e5f" />
+AI agents don't know your metrics, your tables, or your gotchas, so they invent a DAU formula that's almost-right, miss the partition filter on a 120 TB table, and confuse GMV with revenue. This kit gives them that context so you stop correcting the same things repeatedly.
 
 
 It solves three problems:
