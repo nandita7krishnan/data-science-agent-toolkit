@@ -6,6 +6,9 @@
 
 AI agents don't know your metrics, your tables, or your gotchas, so they invent a DAU formula that's almost-right, miss the partition filter on a 120 TB table, and confuse GMV with revenue. This kit gives them that context so you stop correcting the same things repeatedly.
 
+<img width="694" height="239" alt="Screenshot 2026-05-06 at 3 00 18 PM" src="https://github.com/user-attachments/assets/456f6a7a-c993-4c5f-92ba-b682fb9127d9" />
+
+
 It solves three problems:
 
 | Problem | Solution |
@@ -82,6 +85,9 @@ Skills are reusable playbooks — numbered procedures the agent follows for recu
 
 #### Skills index
 
+<img width="709" height="336" alt="Screenshot 2026-05-06 at 2 59 54 PM" src="https://github.com/user-attachments/assets/4b500133-a7ff-4642-9249-00863a679793" />
+
+
 | Skill | What it does |
 |---|---|
 | **Analysis & Insight** | |
@@ -121,6 +127,7 @@ Skills are reusable playbooks — numbered procedures the agent follows for recu
 4. **Run Prompt 1** below to start seeding your docs. Start with `glossary.md` and `metric-definitions.md` — these have the highest return.
 5. **Customize root `AGENTS.md`** — change the tech stack section to match your Python version, SQL dialect, and notebook environment.
 6. **Pick a real task.** Watch where the agent stumbles. Each stumble is a doc gap; close it with Prompt 5.
+<img width="651" height="301" alt="Screenshot 2026-05-06 at 2 58 58 PM" src="https://github.com/user-attachments/assets/8fa675a1-25f9-4037-bf27-18cafc102589" />
 
 
 ---
