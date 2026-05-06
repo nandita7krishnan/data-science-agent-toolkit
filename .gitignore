@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Data (keep fixtures committed, exclude raw/downloaded data)
+data/raw/
+data/external/
+*.csv
+*.parquet
+*.jsonl
+!data/fixtures/**
+
+# ML artifacts
+models/artifacts/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.ckpt
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# uv
+.uv/
+
+# Ruff
+.ruff_cache/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
