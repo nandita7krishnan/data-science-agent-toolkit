@@ -4,9 +4,7 @@
 
 ## What this is
 
-AI agents don't know your metrics, your tables, or your gotchas, so they invent a DAU formula that's almost-right, miss the partition filter on a 120 TB table, and confuse GMV with revenue. This kit gives them that context so you stop correcting the same things repeatedly.
-
-<img width="694" height="239" alt="Screenshot 2026-05-06 at 3 00 18 PM" src="https://github.com/user-attachments/assets/456f6a7a-c993-4c5f-92ba-b682fb9127d9" />
+AI agents don't know your metrics, your tables, or your gotchas, so they invent a DAU formula that's almost-right, miss the partition filter on a 120 TB table, and confuse GMV with revenue. This kit gives them that context so you stop correcting the same things repeatedly.<img width="718" height="239" alt="Screenshot 2026-05-06 at 3 01 18 PM" src="https://github.com/user-attachments/assets/17d24e13-4855-4b92-9639-62bff3399e5f" />
 
 
 It solves three problems:
@@ -53,6 +51,8 @@ The `docs/` folder is the agent's institutional memory. This is the highest-leve
 `AGENTS.md` files are what the agent reads *first* when working in a folder. They're short (~30 lines each), scoped to that folder's concerns, and the root one sets repo-wide conventions.
 
 The hierarchy ships pre-built. You need to **customize it** for your stack:
+<img width="718" height="239" alt="Screenshot 2026-05-06 at 3 01 40 PM" src="https://github.com/user-attachments/assets/76b719ab-a772-4c34-bf6f-635e46d57a10" />
+
 
 ```
 AGENTS.md                  ← root: tech stack, conventions, guardrails (EDIT THIS FIRST)
